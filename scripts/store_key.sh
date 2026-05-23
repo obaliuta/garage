@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 KEY="$1"
-DEST="$HOME/.config/sport_games"
+DEST="$HOME/.config/open_ai"
 mkdir -p "$DEST"
 printf "%s" "$KEY" > "$DEST/key"
 chmod 600 "$DEST/key"
